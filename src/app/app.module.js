@@ -38,6 +38,10 @@ var AppModule = (function () {
                     {
                         path: 'dashboard',
                         component: dashboard_component_1.DashboardComponent
+                    },
+                    {
+                        path: 'detail/:id',
+                        component: hero_detail_component_1.HeroDetailComponent
                     }
                 ])
             ],
