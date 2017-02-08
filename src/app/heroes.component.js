@@ -34,7 +34,6 @@ var HeroesComponent = (function () {
             selector: 'my-heroes',
             templateUrl: './app/heroes.component.html',
             styleUrls: ['./app/heroes.component.css'],
-            providers: [hero_service_1.HeroService]
         }), 
         __metadata('design:paramtypes', [router_1.Router, hero_service_1.HeroService])
     ], HeroesComponent);
