@@ -6,6 +6,7 @@ import { HeroService } from './hero.service';
 @Component({
   selector: 'my-dashboard',
   templateUrl: './app/dashboard.component.html', // had to use direct path because 'moduleId: module.id' was throwing error
+  styleUrls: ['./app/dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
 
