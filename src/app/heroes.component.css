@@ -2,6 +2,17 @@
   background-color: #CFD8DC !important;
   color: white;
 }
+button.delete {
+  float: right;
+  margin-top: 2px;
+  margin-right: .8em;
+  background-color: #A07D8B;
+  color: white;
+  border-radius: 4px;
+}
+button.delete:hover {
+  background-color: #CC5D3B;
+}
 .heroes {
   margin: 0 0 2em 0;
   list-style-type: none;
